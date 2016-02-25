@@ -1,0 +1,42 @@
+doctype html
+html(lang="es")
+  head
+    meta(charset="UFT-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(rel="stylesheet", href="styles/main.css")
+    title Reven
+  body
+    header
+      .ed-container
+        .ed-item.web-20
+          img(src="images/logo.svg").logo
+        .ed-item.web-80.main-end.cross-center
+          | Versión 1.3
+    nav
+      .ed-container
+        .ed-item
+          ul.ed-menu.nav-bar.web-horizontal
+            li
+              a(href="#") Item 1
+              ul
+                li: a(href="#") Subitem 1
+                li: a(href="#") Subitem 2
+                li
+                  a(href="#") Subitem 3
+                  ul
+                    li: a(href="#") Sub-item 1
+                    li: a(href="#") Sub-item 2
+                    li: a(href="#") Sub-item 3
+                    li: a(href="#") Sub-item 4
+                li: a(href="#") Subitem 4
+            li: a(href="#") Item 2
+            li: a(href="#") Item 3
+            li: a(href="#") Item 4
+            li: a(href="#") Item 5
+            li: a(href="#") Item 6
+            li: a(href="#") Item 7
+    .ed-container
+      .ed-item
+        .welcome--text
+          h1 Welcome, Reven now are Running
+    include ./includes/_scripts
