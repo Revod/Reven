@@ -54,5 +54,7 @@
     "watchify": "^3.5.0",
     "yargs": "^3.29.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "ed-grid": "^2.1.0"
+  }
 }
