@@ -3,4 +3,48 @@
 //  =====================
 
 //Site Variales
+// Font face. Incluya el import de Google Fonts o su regla font-face en el respectivo archivo _fonts.scss
 
+  @import 'fonts';
+
+// Variables para aplicarlas en font-weight
+  $light      : 300;
+  $normal     : 400;
+  $semi-bold  : 600;
+  $bold       : 700;
+  $extra-bold : 800;
+
+// PALETA DE COLOR, modifique para su propia paleta de color
+  $negro       : #070D12;
+  $blanco      : #FDFDFD;
+  $gris        : #ccc;
+  $gris-oscuro : #444;
+  $gris-claro  : #f0f0f0;
+
+// ESTILOS BASE
+  $body--background  : #fff;                      // fondo para el body
+  $body--font-family : 'Open Sans', sans-serif;   // fuente predeterminada
+  $body--color       : #333;                      // color de texto predeterminado
+
+// ESTILOS DE ENCABEZADOS
+  $header--font-family    : 'Open Sans', sans-serif;  // fuente para los headers (h1,h2,h3...)
+  $header--font-weight    : $bold;                    // grosor de fuente para los headers
+  $header--text-transform : normal;                   // normal, uppercase, lowercase, capitalize
+  $header--color          : #222;                     // color predeterminado de los header
+
+// TAMAÑO DE LOS ENCABEZADOS (h1...h6)
+  $h1--font-size : 2em;
+  $h2--font-size : 1.6em;
+  $h3--font-size : 1.3em;
+  $h4--font-size : 1em;
+  $h5--font-size : .9em;
+  $h6--font-size : .8em;
+
+// ESTIILOS DE ENLACES
+  $link--color : initial;  // color para los enlaces
+
+// ESTILOS DE PÁRRAFOS
+  $p--font-size   : 1em;        // Tamaño de fuente
+  $p--line-height : 1.5;        // Altura de línea
+  $p--margin      : 1em;        // Separación entre un párrafo y el siguiente
+  $p--font-weight : $normal;    // Grosor predeterminado de la fuente
