@@ -20,7 +20,7 @@ You can also `git clone` or [download](https://github.com/revod/reven/archive/ma
 ### Install dependencies
 
 ```bash
-npm install && bower install
+npm install
 ```
 
 ### Run

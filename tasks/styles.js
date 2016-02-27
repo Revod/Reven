@@ -16,7 +16,7 @@ gulp.task('styles', () => {
   gulp.src(join(src, 'styles', 'main.scss'))
     .pipe(plumber())
     .pipe(sass({
-      includePaths: ['bower_components', stylePaths(['scss', 'sass'])],
+      includePaths: ['node_modules', stylePaths(['scss', 'sass'])],
     }))
     .pipe(postcss([autoprefixer({ browsers: ['last 2 versions'] })]))
     .pipe(gulp.dest(join(dest, 'styles')))
